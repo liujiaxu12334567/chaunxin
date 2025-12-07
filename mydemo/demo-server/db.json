@@ -1,0 +1,246 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "wangshan",
+            "password":"123"
+        },
+        {
+            "id": 2,
+            "name": "wangshan",
+            "password":"123"
+        }
+        ,
+        {
+            "id": 3,
+            "name": "wangshan",
+            "password":"123"
+        }
+    ],
+    "goods": [
+    {
+      "id": 1,
+      "imgurl": "/images/goods1.webp",
+      "name": "小米电视",
+      "favor": 99,
+      "count": 10,
+      "price": 2999,
+      "tags": [
+        "屏幕大",
+        "清晰",
+        "显示效果好"
+      ],
+      "goods_wall": [
+        {
+          "imgurl": "/images/detail1.webp"
+        },
+        {
+          "imgurl": "/images/detail2.webp"
+        },
+        {
+          "imgurl": "/images/detail3.webp"
+        }
+      ],
+      "discount": false,
+      "introduce": "作为更高端的未来显示技术，OLED屏幕拥有829万个自发光像素，相较传统液晶屏幕的背光结构，拥有更为精准的控光能力，呈现更为精致细腻，生动鲜明的影像画面。",
+      "comments": [
+        {
+          "id": 1,
+          "name": "张三",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "外形外观:简洁大气 功能效果:快 屏幕音效:好",
+          "date": "2022/8/19"
+        },
+        {
+          "id": 2,
+          "name": "李四",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "外形外观：微边框，好看 运行速度：快啊 屏幕音效：棒 尺寸大小：大很大 功能效果：屏幕很棒",
+          "date": "2021/12/23"
+        },
+        {
+          "id": 3,
+          "name": "王五",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "送货很快，价格满意，还没安装，送货时工程师帮忙通电测试，等安装后再追评",
+          "date": "2021/7/16"
+        },
+        {
+          "id": 4,
+          "name": "赵六",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "外形外观：微边框，好看 运行速度：快啊 屏幕音效：棒 尺寸大小：大很大 功能效果：屏幕很棒",
+          "date": "2020/11/28"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imgurl": "/images/goods2.webp",
+      "name": "米家新风空调",
+      "favor": 199,
+      "count": 100,
+      "price": 4999,
+      "tags": [
+        "全屋快通风",
+        "效果好",
+        "安静"
+      ],
+      "goods_wall": [
+        {
+          "imgurl": "/images/detail4.webp"
+        },
+        {
+          "imgurl": "/images/detail5.webp"
+        },
+        {
+          "imgurl": "/images/detail6.webp"
+        }
+      ],
+      "discount": false,
+      "introduce": "小米 1.5匹 新风空调 新一级 变频冷暖 60m3/h大新风量 空调挂机 KFR-35GW/F1A1 以旧换新",
+      "comments": [
+        {
+          "id": 1,
+          "name": "张三",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "师傅安装的很标准，空调也很给力，新风功能也很强大，没多长时间屋里的空气都换了一遍，很开心能买到这一款。",
+          "date": "2022/8/19"
+        },
+        {
+          "id": 2,
+          "name": "李四",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "非常好，做工，用料，安装都很 OK。价格优惠",
+          "date": "2021/12/23"
+        },
+        {
+          "id": 3,
+          "name": "王五",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "准时安装，及时上门，按时完成，非常迅速，准时到达",
+          "date": "2021/7/16"
+        },
+        {
+          "id": 4,
+          "name": "赵六",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "颜值高，制冷效果很好，灰色太好看了",
+          "date": "2020/11/28"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "imgurl": "/images/goods3.webp",
+      "name": "洗烘一体机",
+      "favor": 299,
+      "count": 120,
+      "price": 3999,
+      "tags": [
+        "小巧",
+        "安静",
+        "工作效率高"
+      ],
+      "goods_wall": [
+        {
+          "imgurl": "/images/detail1.webp"
+        },
+        {
+          "imgurl": "/images/detail2.webp"
+        },
+        {
+          "imgurl": "/images/detail3.webp"
+        }
+      ],
+      "discount": false,
+      "introduce": "米家小米米家滚筒洗衣机全自动 12公斤超大容量洗烘一体 微蒸空气洗除菌直驱电机节能 XHQG120MJ202",
+      "comments": [
+        {
+          "id": 1,
+          "name": "张三",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "外形外观：黑色非常典雅，适合家居。",
+          "date": "2022/8/19"
+        },
+        {
+          "id": 2,
+          "name": "李四",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "颜色纯正 洗涤质量非常不错 接近手洗了 ",
+          "date": "2021/12/23"
+        },
+        {
+          "id": 3,
+          "name": "王五",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "这款洗衣机真的很大气上档次，特别是钛合金的颜色",
+          "date": "2021/7/16"
+        },
+        {
+          "id": 4,
+          "name": "赵六",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "因为没有电梯，师傅很负责任的搬上了楼，而且拆箱安装都非常到位",
+          "date": "2020/11/28"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "imgurl": "/images/goods4.webp",
+      "name": "滚筒洗衣机",
+      "favor": 199,
+      "count": 210,
+      "price": 2399,
+      "tags": [
+        "功能多",
+        "性价比高",
+        "静音"
+      ],
+      "goods_wall": [
+        {
+          "imgurl": "/images/detail1.webp"
+        },
+        {
+          "imgurl": "/images/detail2.webp"
+        },
+        {
+          "imgurl": "/images/detail3.webp"
+        }
+      ],
+      "discount": false,
+      "introduce": "米家小米出品 10kg滚筒洗衣机全自动 直驱变频低噪节能高温除菌除螨珍珠白 XQG100MJ103W",
+      "comments": [
+        {
+          "id": 1,
+          "name": "张三",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "外形外观：造型简单，外观简约，很好看",
+          "date": "2022/8/19"
+        },
+        {
+          "id": 2,
+          "name": "李四",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "洗净效果：洗衣效果很好，自动洗涤，还能预约，很方便",
+          "date": "2021/12/23"
+        },
+        {
+          "id": 3,
+          "name": "王五",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "价格实惠，性价比超高，推荐购买！",
+          "date": "2021/7/16"
+        },
+        {
+          "id": 4,
+          "name": "赵六",
+          "avatar": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
+          "content": "洗衣机已经收到，使用一天后简单评价：外形简约整洁，功能选择多样性，可满足不同衣物洗涤需求，还有除螨功能算是比较实用的。",
+          "date": "2020/11/28"
+        }
+      ]
+    }
+    ]
+}
