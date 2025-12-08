@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// ... 前面的 import 保持不变
 
 @RestController
 @RequestMapping("/api/action")
@@ -22,7 +21,6 @@ public class ActionController {
     @Autowired
     private FavoriteMapper favoriteMapper;
 
-    // ... 原有的 cart/add, cart/list 等方法保持不变 ...
     @PostMapping("/cart/add")
     public Map<String, Object> addToCart(@RequestBody Cart cart) {
         Cart exist = cartMapper.selectExist(cart.getUserId(), cart.getGoodsId());
@@ -40,14 +38,11 @@ public class ActionController {
         return cartMapper.selectByUserId(userId);
     }
 
-    // [新增] 删除购物车商品接口
     @DeleteMapping("/cart/remove")
     public Map<String, Object> removeFromCart(@RequestParam Integer id) {
         cartMapper.deleteById(id);
         return Map.of("success", true, "message", "已移除");
     }
-
-    // ... 下面的 favorite 相关方法保持不变 ...
     @PostMapping("/favorite/toggle")
     public Map<String, Object> toggleFavorite(@RequestBody Map<String, Integer> params) {
         Integer userId = params.get("userId");

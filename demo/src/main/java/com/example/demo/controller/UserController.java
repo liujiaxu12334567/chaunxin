@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/user")
-@CrossOrigin(origins = "*") // 允许跨域
+@CrossOrigin(origins = "*")
 public class UserController {
 
     @Autowired

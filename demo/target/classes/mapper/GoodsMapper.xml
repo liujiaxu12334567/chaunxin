@@ -38,4 +38,15 @@
                  left join goods_wall w on w.goods_id = g.id
         order by g.id
     </select>
+
+    <select id="selectGoodsDetail" resultMap="GoodMap">
+        select g.*, c.id as comments_id, c.name as comments_name,c.avatar,
+               c.content as comments_content,c.date,t.id as tags_id,t.content as tags_content,
+               w.id as wall_id,w.imgurl
+        from goods g
+                 left join comments c on c.goods_id = g.id
+                 left join tags t on t.goods_id = g.id
+                 left join goods_wall w on w.goods_id = g.id
+        where g.id = #{id}
+    </select>
 </mapper>
